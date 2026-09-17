@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Reconstruction/generated data
+backend/uploads/
+backend/projects/
+backend/output/
+
+# Large Gaussian Splat models
+*.ply
+*.sog
+*.compressed.ply
+
+# Generated images
+backend/static/*.png
+backend/static/*.jpg
+backend/static/*.jpeg
